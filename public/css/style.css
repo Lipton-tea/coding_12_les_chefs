@@ -15804,11 +15804,14 @@ body .lt {
 }
 
 .footer {
-  background-image: url("../../public/images/footer_background.jpg");
+  background-image: url("../../public/images/testimonials_background.jpg");
 }
-
-.lastbg {
+.footer .colorbg {
   background-color: red;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
