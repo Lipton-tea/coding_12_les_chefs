@@ -1,0 +1,72 @@
+@import "./_font"
+@import "./_icon"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+
+body 
+    background-image: url('../../public/images/main_bg.jpg')
+
+    header 
+        background-image: url('../../public/images/banner1.jpg')
+        ul 
+            li 
+                &:hover
+                    background-color: red
+
+
+    .lt
+        margin: 50px 100px
+
+
+.section2 
+    background-image: url('../../public/images/team_background.jpg')
+
+
+
+.section1
+    .corner
+        position: relative 
+        height: 1100px
+        width: 100%
+        z-index: 1
+        .corner1
+            position: relative
+            top: 0px
+            left: 0px
+            z-index: 2
+        .corner1-1
+            position: relative
+            top: 0px
+            left: -15px
+            z-index: 2
+        .corner2
+            position: absolute 
+            top: 0px
+            right: -15px
+            z-index: 2
+        .corner3
+            position: absolute 
+            bottom: 0px
+            left: -15px
+            z-index: 2
+        .corner4
+            position: absolute 
+            bottom: 0px
+            right: -15px
+            z-index: 2
+        h2 
+            &:after 
+                content: url
+
+
+.section4
+    background-image: url('../../public/images/testimonials_background.jpg')
+
+
+
+
+.footer
+    background-image: url('../../public/images/footer_background.jpg')
+
+
+.lastbg
+    background-color: red
